@@ -8,5 +8,5 @@ When(/^I click on the BOOK A TEST DRIVE$/) do
 end
 
 Then(/^I am on the book a test drive page$/) do
-  page.has_content?('Experience Renault for yourself')  
+  page.has_content?('Experience Renault for yourself')
 end
