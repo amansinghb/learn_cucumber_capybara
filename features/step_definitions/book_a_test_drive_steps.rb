@@ -1,5 +1,5 @@
 Then(/^I select a model$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  find('.vehicle-in-category-name .vehicle-in-category-name-inner').click
 end
 
 Then(/^I select a dealer$/) do
