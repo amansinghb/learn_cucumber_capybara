@@ -14,10 +14,12 @@ Feature: As a user
   Scenario Outline: Search for a location
     Given I enter a <location>
     When I search
+    Then
 
   Examples:
 
     |location |
     |leicester|
+    |london|
 
 
